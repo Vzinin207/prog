@@ -29,8 +29,8 @@ int main()
     }
     if (sum>x)
     {
-        h=sum/x;
-        printf("частное суммы параметров a, b и параметра x %.3f\n",h);
+        h=x/sum;
+        printf("обратное частное суммы параметров a, b и параметра x %.3f\n",h);
         return 0;
     }
     if (sum==x);
